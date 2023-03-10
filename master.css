@@ -1,0 +1,60 @@
+/* *********   headerتنسيقات ال  **********/
+header{
+    background-color:brown;
+    text-align: center;
+}
+header > p{   
+    display: inline-block;
+    color: aliceblue;
+    width: 200px;
+    font-family:serif;
+}
+  
+
+
+   /************   image 1  ************/
+.background{
+  background-image: url("task_background.jpg");
+  height: 500px;
+  background-repeat:no-repeat; 
+  background-size: 100%;
+  color: aliceblue;
+  margin: 0%;
+}
+
+/*   ************  الصورة التانية ********/
+
+.image img{
+  width:200px;
+  height:200px;
+}
+.image{
+  background-color:rgba(194, 61, 61, 0.445);
+  width:25%;
+  color: rgb(185, 30, 30);
+}
+button{
+  margin-bottom:10px;
+  color:rgb(185, 30, 30);
+}
+
+/********************    list    ********/
+.list{
+  background-color: aqua;
+  width:30%;
+}
+.nestedlist{
+  background-color:rgb(42, 145, 235);
+  width:70%;
+}
+.orderedlist{
+  background-color:rgb(134, 137, 139);
+  width:86%;
+}
+
+/* ***********  footer  ***********         */
+footer{
+  text-align: center;
+  background-color: brown;
+  color: aliceblue;
+}
